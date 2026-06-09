@@ -1,4 +1,5 @@
 # The Last Query
+Status: candidate
 
 A chaotic survival game about a data analyst fighting broken pipelines, meetings, dashboards, and production chaos.
 
