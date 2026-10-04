@@ -27,7 +27,7 @@ A chaotic survival game about a data analyst fighting broken pipelines, meetings
 ## Local development
 
 ```bash
-npm install
+npm ci
 npm run dev
 ```
 
@@ -51,3 +51,9 @@ This project is configured for GitHub Pages via GitHub Actions.
 ## Notes
 
 The game keeps its meme-driven analytics tone: SQL sword combat, chaos events, sarcastic logs, and retro dashboard vibes.
+
+## Восстановление
+
+Постоянный путь: `~/projects/the-last-query/`. Перенесён из `lab/` 3 октября 2026. Восстановить репозиторий `yzotop/the-last-query` и отдельно сохранённые локальные изменения. Установить Node.js и npm, затем выполнить `npm ci` для версий из `package-lock.json`, `npm run build` для проверки и `npm run dev` для запуска. Папка `node_modules/` пересоздаётся. Vite base `/the-last-query/` относится к адресу сайта и при переносе локальной папки не меняется.
+
+Локальная проверка после переноса: Node.js v25.4.0, npm 11.12.1; `npm ci` и сборка прошли. Это проверенная конфигурация этого Mac, не требование строго такой версии.
